@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Duplicate Tabs Side Panel",
+  "version": "1.0",
+  "description": "Mostra abas duplicadas em um painel lateral.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "sidePanel"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Abrir painel"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
